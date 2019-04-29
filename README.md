@@ -1,6 +1,6 @@
 # asrock-z370m-pro4-hackintosh
 
-[English version](./README-EN.md)
+系统版本：macOS Mojave 10.14.4
 
 该项目只针对我的配置，仅供参考，不要盲目使用。
 
@@ -30,7 +30,7 @@ Advanced \ Super IO Configuration → Serial Port: Disabled
 
 Advanced \ USB Configuration → XHCI Hand-off : Enabled
 
-Advanced \ Chipset Configuration → Share Memory : 128MB
+Advanced \ Chipset Configuration → Share Memory : 128MB or auto
 
 Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
 
@@ -50,8 +50,7 @@ USB 不正常工作的表现有：
 4. 重启后 USB 设备丢失，需要重新插拔。
 
 
-**1 移除 USB 端口限制**
-
+**1 移除 USB 端口限制**（config里面已经集成补丁）
 安装完 macOS 10.14.4 后需要移除 USB 端口限制，如果不移除你只能在 FB Patcher 上看到 15 个 USB 端口。移除方法请参考 [List of Hackintosh USB Port Limit Patches (10.14 Updated)](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-14-updated.467/)。
 
 **2 使用 FB Patcher 制作 USB 补丁**
@@ -96,24 +95,9 @@ HSXX 代表的是 USB 2.0，SSXX 代表的是 USB 3.0。
 
 | 版本 | 日期 | 备注 |
 |-------------------------------|-----------|----------|
-| macOS Mojave 10.14.2 (18C54)  | 2018.12.7 | 正常升级，无异常 |
-| macOS Mojave 10.14.3 (18D42)  | 2019.1.23 | 正常升级，无异常 |
-| macOS Mojave 10.14.3 (18D109) | 2019.2.11 | 正常升级，无异常 |
-| macOS Mojave 10.14.4 (18E226) | 2019.3.26 | 正常升级，无异常 |
+| macOS Mojave 10.14.4 (18E226) | 2019.4.28 | 正常，无异常 |
 
-## 跑分测试
 
-### Geekbench CPU
-
-<img src="./images/geekbench-cpu.png" alt="geekbench-cpu-score" width="400px">
-
-### Geekbench GPU
-
-<img src="./images/geekbench-gpu-opengl.png" alt="geekbench-gpu-opengl-score" width="400px">
-
-### Cinebench
-
-<img src="./images/cinebench.png" alt="cinebench-score">
 
 ## 参考链接
 
