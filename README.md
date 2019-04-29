@@ -6,19 +6,19 @@
 
 ## 硬件
 
-CPU：Intel i5 8400
+CPU：Intel i5 8500
 
 主板：[Asrock z370m Pro4](https://www.asrock.com/MB/Intel/Z370M%20Pro4/index.asp)
 
-显卡：[蓝宝石RX580 8G D5 J极光版 ](http://www.sapphiretech.com/productdetial.asp?pid=C12A4F7E-B791-4DDB-8D32-47BB6ACA68BD&lang=chs)
+显卡：[蓝宝石RX580 8G D5 极光版 ](http://www.sapphiretech.com/productdetial.asp?pid=C12A4F7E-B791-4DDB-8D32-47BB6ACA68BD&lang=chs)
 
 Wi-Fi 和蓝牙：BCM94360CD
 
-内存：金士顿 8G DDR4 3200 x 2
+内存：金士顿 8G DDR4 3200Mhz x 2
 
 硬盘：闪迪至尊超极速480G SSD
 
-Wi-Fi插上就能用和蓝牙需要打USB限制补丁。
+Wi-Fi插上就能用，蓝牙需要打USB限制补丁。
 
 ## BIOS 设置
 
@@ -38,7 +38,7 @@ Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
 
 ### 音频
 
-为了让音频正常工作，ALC892的Audio Inject 的值为 `1`。
+为了让音频正常工作，板载ALC892的Audio Inject 的值为 `1`。
 
 ### 让 USB 顺利工作
 
