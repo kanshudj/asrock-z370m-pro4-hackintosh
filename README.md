@@ -1,8 +1,12 @@
 # asrock-z370m-pro4-hackintosh
 
+截止5.1，目前efi文件还未完全上传完毕，请稍等。
+
 系统版本：macOS Mojave 10.14.4
 
-该项目只针对我的配置，仅供参考，不要盲目使用。
+各功能情况（95%+）：CPU、核显、独显、Wi-Fi、蓝牙、睡眠及唤醒、声音、USB都基本正常。
+
+该项目主要参考Houcoder的部分USB部分设定，其他的针对我的配置从黑果小兵的默认配置上进行修改，仅供参考，不要盲目使用。
 
 ## 硬件
 
@@ -10,27 +14,29 @@ CPU：Intel i5 8500
 
 主板：[Asrock z370m Pro4](https://www.asrock.com/MB/Intel/Z370M%20Pro4/index.asp)
 
-显卡：[蓝宝石RX580 8G D5 极光版 ](http://www.sapphiretech.com/productdetial.asp?pid=C12A4F7E-B791-4DDB-8D32-47BB6ACA68BD&lang=chs)
+显卡：[蓝宝石RX580 8G D5 超白金极光特别版
+
+显示器：Dell U2515H （2560x1440）DP接口
 
 Wi-Fi 和蓝牙：BCM94360CD
 
-内存：金士顿 8G DDR4 3200Mhz x 2
+内存：金士顿掠食者 8G DDR4 3200Mhz x 2
 
 硬盘：闪迪至尊超极速480G SSD
 
-Wi-Fi插上就能用，蓝牙需要打USB限制补丁。
+（*）Wi-Fi插上就能用，蓝牙需要打移除USB限制补丁。
 
 ## BIOS 设置
 
 BIOS 版本：3.20
 
-Advanced \ Chipset Configuration → Vt-d : Disabled
+Advanced \ Chipset Configuration → Vt-d : Disabled （仅安装时）
 
-Advanced \ Super IO Configuration → Serial Port: Disabled
+Advanced \ Super IO Configuration → Serial Port: Disabled（仅安装时）
 
 Advanced \ USB Configuration → XHCI Hand-off : Enabled
 
-Advanced \ Chipset Configuration → Share Memory : 128MB or auto
+Advanced \ Chipset Configuration → Share Memory : 128MB or Auto
 
 Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
 
