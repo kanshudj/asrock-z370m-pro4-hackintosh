@@ -321,21 +321,7 @@
 				</data>
 			</dict>
 		</array>
-		<key>Audio</key>
-		<dict>
-			<key>AFGLowPowerState</key>
-			<true/>
-			<key>Inject</key>
-			<integer>1</integer>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>#Kaby Lake-Comment</key>
-			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
-		</dict>
-		<key>Properties</key>
+		<key>#Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -356,6 +342,22 @@
 				AAAwAQ==
 				</data>
 			</dict>
+		</dict>
+		<key>Audio</key>
+		<dict>
+			<key>AFGLowPowerState</key>
+			<true/>
+			<key>Inject</key>
+			<integer>1</integer>
+			<key>ResetHDA</key>
+			<true/>
+		</dict>
+		<key>FakeID</key>
+		<dict>
+			<key>#Kaby Lake-Comment</key>
+			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
+			<key>IntelGFX</key>
+			<string>0x3e928086</string>
 		</dict>
 		<key>SetIntelMaxBacklight</key>
 		<false/>
