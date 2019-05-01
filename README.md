@@ -1,5 +1,7 @@
 # asrock-z370m-pro4-hackintosh
 
+更新的config.plist是有效的，其他文件参考请下载黑果小兵的10.14.4安装镜像。
+
 主要使用到的kext为：USBInjectAll.kext Lilu.kext AppleALC.kext WhateverGreen.kext 已经包含几乎所有显卡音频usb的驱动，
                  其他kext请参考‘文件说明.pdf‘
 
