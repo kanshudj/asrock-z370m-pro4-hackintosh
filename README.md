@@ -1,10 +1,11 @@
 # asrock-z370m-pro4-hackintosh
 
-截止5.1，目前efi文件还未完全上传完毕，请稍等。
+主要使用到的kext为：USBInjectAll.kext Lilu.kext AppleALC.kext WhateverGreen.kext 已经包含几乎所有显卡音频usb的驱动，
+                 其他kext请参考‘文件说明.pdf‘
 
 系统版本：macOS Mojave 10.14.4
 
-各功能情况（95%+）：CPU、核显、独显、Wi-Fi、蓝牙、睡眠及唤醒、声音、USB都基本正常。
+各功能情况（95%+）：CPU、核显、独显、Wi-Fi、蓝牙、睡眠及唤醒、声音、USB都基本正常。config.plist已经上传。
 
 该项目主要参考Houcoder的部分USB部分设定，其他的针对我的配置从黑果小兵的默认配置上进行修改，仅供参考，不要盲目使用。
 
@@ -14,7 +15,7 @@ CPU：Intel i5 8500
 
 主板：[Asrock z370m Pro4](https://www.asrock.com/MB/Intel/Z370M%20Pro4/index.asp)
 
-显卡：[蓝宝石RX580 8G D5 超白金极光特别版
+显卡：蓝宝石RX580 8G D5 超白金极光特别版
 
 显示器：Dell U2515H （2560x1440）DP接口
 
