@@ -356,8 +356,6 @@
 		<dict>
 			<key>#Kaby Lake-Comment</key>
 			<string>To avoid automatic Clover fake device-id (Skylake) injection</string>
-			<key>IntelGFX</key>
-			<string>0x3e928086</string>
 		</dict>
 		<key>SetIntelMaxBacklight</key>
 		<false/>
@@ -369,7 +367,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -395,6 +393,11 @@
 				</dict>
 			</array>
 		</dict>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+			<string>Recovery</string>
+		</array>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -409,12 +412,12 @@
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>2560x1440</string>
+		<string>3840x2160</string>
 		<key>Theme</key>
-		<string>2019</string>
+		<string>Mojave</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -428,12 +431,10 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>ig-platform-id</key>
-		<string>0x3E920003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -696,17 +697,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/28/2018</string>
+		<string>02/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1809280842</string>
+		<string>IM192.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-77F17D7DA9285301</string>
+		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02710301GUJ0DXJC</string>
+		<string>C02GH9TYJ1G5</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -718,7 +719,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>166.0.0.0.0</string>
+		<string>220.250.368.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -734,13 +735,13 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,2</string>
+		<string>iMac19,2</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02GH9TYJ1G5</string>
+		<string>C02ZPGZ7JWDW</string>
 		<key>SmUUID</key>
-		<string>6645DC6B-7892-4A15-B216-81B5309BF399</string>
+		<string>9E241E48-BB3A-4A9D-921D-0EA9FB363F22</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -749,7 +750,7 @@
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
 		<key>CustomUUID</key>
-		<string>DC0D518D-C01D-5B4C-A4F8-92E15595748D</string>
+		<string>948BE62B-27C0-5837-BFF4-B5B5482D2F96</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
