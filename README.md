@@ -58,10 +58,10 @@
 
 ### 音频
 
-为了让音频正常工作，板载ALC892的Audio Inject 的值为 `1`。
+>为了让音频正常工作，板载ALC892的Audio Inject 的值为 `1`。
 
 **移除 USB 端口限制**（config里面已经集成补丁）
-安装完 macOS 10.14.4 后需要移除 USB 端口限制，如果不移除你只能在 FB Patcher 上看到 15 个 USB 端口。移除方法请参考 [List of Hackintosh USB Port Limit Patches (10.14 Updated)](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-14-updated.467/)。
+>安装完 macOS 10.14.4 后需要移除 USB 端口限制，如果不移除你只能在 FB Patcher 上看到 15 个 USB 端口。移除方法请参考 [List of Hackintosh USB Port Limit Patches (10.14 Updated)](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-14-updated.467/)。
 
 
 ## 已知的一些问题
