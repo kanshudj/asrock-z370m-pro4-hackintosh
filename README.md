@@ -1,21 +1,20 @@
 ># Asrock-Z370m-Pro4-Hackintosh
 
 ## 硬件
-***
-CPU：Intel i5 8500
-***
-主板：Asrock z370m Pro4
-***
-显卡：蓝宝石RX580 8G D5 超白金极光特别版
-***
-显示器：LG 27UK600 （3840x2160）DP接口
-***
-Wi-Fi 和蓝牙：BCM94360CD （Wi-Fi插上就能用，蓝牙需要打移除USB限制补丁）
-***
-内存：金士顿掠食者 8G DDR4 3200Mhz x 2
-***
-硬盘：闪迪至尊超极速480G SSD
-***
+
+>CPU：Intel i5 8500
+
+>主板：Asrock z370m Pro4
+
+>显卡：蓝宝石RX580 8G D5 超白金极光特别版
+
+>显示器：LG 27UK600 （3840x2160）DP接口
+
+>Wi-Fi 和蓝牙：BCM94360CD （Wi-Fi插上就能用，蓝牙需要打移除USB限制补丁）
+
+>内存：金士顿掠食者 8G DDR4 3200Mhz x 2
+
+>硬盘：闪迪至尊超极速480G SSD
 
 
 ## 系统概况
@@ -43,17 +42,17 @@ Wi-Fi 和蓝牙：BCM94360CD （Wi-Fi插上就能用，蓝牙需要打移除USB�
 
 ## BIOS 设置
 
-BIOS 版本：3.20
+>BIOS 版本：3.20
 
-Advanced \ Chipset Configuration → Vt-d : Disabled （仅安装时）
+>Advanced \ Chipset Configuration → Vt-d : Disabled （仅安装时）
 
-Advanced \ Super IO Configuration → Serial Port: Disabled（仅安装时）
+>Advanced \ Super IO Configuration → Serial Port: Disabled（仅安装时）
 
-Advanced \ USB Configuration → XHCI Hand-off : Enabled
+>Advanced \ USB Configuration → XHCI Hand-off : Enabled
 
-Advanced \ Chipset Configuration → Share Memory : 128MB or Auto
+>Advanced \ Chipset Configuration → Share Memory : 128MB or Auto
 
-Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
+>Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
 
 ## 安装注意事项
 
@@ -69,19 +68,19 @@ Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
 
 ### 睡眠后小概率出现蓝牙不可用的情况
 
-这个问题在白苹上也有，遇到这种问题重启下蓝牙服务即可：`` $ sudo kill -9 `pgrep bluetoothd` `` - [Restart Bluetooth Daemon on Mac OS X without restarting](https://gist.github.com/nicolasembleton/afc19940da26716f8e90#gistcomment-2636787)。
+>这个问题在白苹上也有，遇到这种问题重启下蓝牙服务即可：`` $ sudo kill -9 `pgrep bluetoothd` `` - [Restart Bluetooth Daemon on Mac OS X without restarting](https://gist.github.com/nicolasembleton/afc19940da26716f8e90#gistcomment-2636787)。
 
 ## USB 端口映射关系
 
-HSXX 代表的是 USB 2.0，SSXX 代表的是 USB 3.0。
+>HSXX 代表的是 USB 2.0，SSXX 代表的是 USB 3.0。
 
-主板背部：
+>主板背部：
 
 ![port mapping](./images/motherboard-usb-mapping.png)
 
-蓝牙：HS05
+>蓝牙：HS05
 
-机箱前置 USB（上）：HS09 SS06
+>机箱前置 USB（上）：HS09 SS06
 
-机箱前置 USB（下）：HS10 SS05
+>机箱前置 USB（下）：HS10 SS05
 
