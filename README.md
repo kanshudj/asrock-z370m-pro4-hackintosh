@@ -1,37 +1,37 @@
 ># Asrock-Z370m-Pro4-Hackintosh
 
 ## 硬件
-
+***
 CPU：Intel i5 8500
-
+***
 主板：Asrock z370m Pro4
-
+***
 显卡：蓝宝石RX580 8G D5 超白金极光特别版
-
+***
 显示器：LG 27UK600 （3840x2160）DP接口
-
-Wi-Fi 和蓝牙：BCM94360CD
-
+***
+Wi-Fi 和蓝牙：BCM94360CD （Wi-Fi插上就能用，蓝牙需要打移除USB限制补丁）
+***
 内存：金士顿掠食者 8G DDR4 3200Mhz x 2
-
+***
 硬盘：闪迪至尊超极速480G SSD
+***
 
-（*）Wi-Fi插上就能用，蓝牙需要打移除USB限制补丁。
 
 ## 系统概况
 
-系统版本：macOS Mojave 10.14.5
+>系统版本：macOS Mojave 10.14.5
 
-机型：iMac19,2
+>机型：iMac19,2
 
-更新的config.plist是有效的，其他文件参考请下载黑果小兵的10.14.5安装镜像。
+>更新的config.plist是有效的，其他文件参考请下载黑果小兵的10.14.5安装镜像。
 
-主要使用到的kext为：USBInjectAll.kext Lilu.kext AppleALC.kext WhateverGreen.kext 已经包含几乎所有显卡音频usb的驱动，
+>主要使用到的kext为：USBInjectAll.kext Lilu.kext AppleALC.kext WhateverGreen.kext 已经包含几乎所有显卡音频usb的驱动，
                  其他kext请参考‘文件说明.pdf‘
 
-各功能情况（95%+）：CPU、核显、独显、Wi-Fi、蓝牙、睡眠及唤醒、声音、USB都基本正常，config.plist已经上传。
+>各功能情况（95%+）：CPU、核显、独显、Wi-Fi、蓝牙、睡眠及唤醒、声音、USB都基本正常，config.plist已经上传。
 
-该项目主要参考Houcoder的部分USB部分设定，其他的针对我的配置从黑果小兵的默认配置上进行修改，仅供参考，不要盲目使用。
+>该项目主要参考Houcoder的部分USB部分设定，其他的针对我的配置从黑果小兵的默认配置上进行修改，仅供参考，不要盲目使用。
 
 ## 升级记录
 
